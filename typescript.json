@@ -1,0 +1,20 @@
+{
+ 	"Functional Component with no Children": {
+		"prefix": "FunctionalComponentWithNoChildren",
+		"body": [
+			"interface Properties{${1:defaultProp}:${2:type} | undefined}",
+			"const ${3:name}= ({ ${1}=undefined }: Properties) => {",
+			"  return (",
+			 "<>",
+			"      ",
+			"</>",
+			"  )",
+			"};",
+			"",
+			"export {${3}}",
+			""
+		],
+		"description": "Functional Component with No Children"
+	}
+
+}
